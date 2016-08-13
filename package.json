@@ -1,6 +1,6 @@
 {
-    "name": "hbuckle.defaultskin",
-    "displayName": "hbuckle skin",
+    "name": "hbuckledefaultskin",
+    "displayName": "HBuckle Default Skin",
     "version": "1.1.0",
     "description": "The hbuckle Emby skin.",
     "plugin": "plugin.js",

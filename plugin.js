@@ -16,9 +16,9 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
 
         var self = this;
 
-        self.name = 'Default Skin';
+        self.name = 'HBuckle Default Skin';
         self.type = 'skin';
-        self.id = 'defaultskin';
+        self.id = 'hbuckledefaultskin';
 
         var dependencyPrefix = self.id;
         var settingsObjectName = dependencyPrefix + '/skinsettings';
