@@ -5,7 +5,7 @@ define(['cardBuilder', 'emby-itemscontainer'], function (cardBuilder) {
         var options = {
 
             ParentId: parentId,
-            EnableImageTypes: "Primary,Backdrop,Thumb",
+            EnableImageTypes: "Primary,Backdrop,Thumb,Banner",
             SortBy: 'SortName'
         };
 
@@ -22,7 +22,7 @@ define(['cardBuilder', 'emby-itemscontainer'], function (cardBuilder) {
             cardBuilder.buildCards(result.Items, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
-                shape: 'auto',
+                shape: 'autoVertical',
                 autoFocus: autoFocus,
                 coverImage: true,
                 rows: {
